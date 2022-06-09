@@ -43,11 +43,37 @@ function createCookbook(book) {
     li.className = 'cooking';
 
     li.append(h3, h4, p);
-    document.getElementById('recent-books').append(li);
+    document.querySelector('ul').append(li);
 }
 
 
 createBook(fiction);
 createBook(nonFiction);
+createCookbook(cookbook);
 
+const newBooks = [
+    { 
+        title: "Walk in the Woods",
+        author: "Bill Bryson",
+    },
+    {
+        title: "Just Kids",
+        author: "Patti Smith",
+    },
+    {
+        title: "A Year in Provence",
+        author: "Peter Mayle",
+    }
+]
 
+function booksUpNext(book) {
+    const li = document.createElement('li');
+    const h3 = document.createElement('h3');
+
+    h3.innerText = book.title;
+
+    li.append(h3);
+    document.querySelector('#up-next').append(li);
+}
+
+newBooks.forEach(booksUpNext);
