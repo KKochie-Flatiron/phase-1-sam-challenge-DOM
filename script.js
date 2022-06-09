@@ -70,10 +70,10 @@ function booksUpNext(book) {
     const li = document.createElement('li');
     const h3 = document.createElement('h3');
 
-    h3.innerText = newBooks.title;
+    h3.innerText = book.title;
 
     li.append(h3);
-    document.querySelector('ul #up-next').append(li);
+    document.getElementById('up-next').append(li);
 }
 
 newBooks.forEach(booksUpNext);
