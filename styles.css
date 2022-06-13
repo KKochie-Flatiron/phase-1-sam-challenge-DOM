@@ -4,10 +4,23 @@ body {
     margin: 50px;
 }
 
-#up-next {
+#shows {
     color:brown;
 }
 
 .cooking {
     color:tomato;
+}
+
+.hidden {
+    display: none;
+}
+
+button
+{
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    margin: 10px 10px 10px 0;
 }

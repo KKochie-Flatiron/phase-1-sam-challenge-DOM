@@ -1,37 +1,60 @@
 {
-    "complete": [
-        {
-            "title": "The Book on Pie",
-            "author": "Erin Jeanne McDowell",
-            "genre": "Cookbook",
-            "id": 1
-        },
-        {   "title": "Cloud Cuckoo Land",
-            "author": "Anthony Doerr",
-            "genre": "Historical Fiction",
-            "id": 2
-        },
-        {   "title": "Crying in H-Mart",
-            "author": "Michelle Zauner",
-            "genre": "Memoir",
-            "id": 3
-        }
-    ],
-    "next": [
-        {
-            "title": "Walk in the Woods",
-            "author": "Bill Bryson",
-            "id": 1
-        },
-        {
-            "title": "Just Kids",
-            "author": "Patti Smith",
-            "id": 2
-        },
-        {   "title": "A Year in Provence",
-            "author": "Peter Mayle",
-            "id": 3
-        }
-    ]
-
+  "books": [
+    {
+      "title": "The Book on Pie",
+      "author": "Erin Jeanne McDowell",
+      "genre": "Cookbook",
+      "id": 1
+    },
+    {
+      "title": "Cloud Cuckoo Land",
+      "author": "Anthony Doerr",
+      "genre": "Historical Fiction",
+      "id": 2
+    },
+    {
+      "title": "Crying in H-Mart",
+      "author": "Michelle Zauner",
+      "genre": "Memoir",
+      "id": 3
+    },
+    {
+      "title": "Let's Make Dumplings",
+      "author": "Sarah Becan",
+      "genre": "Cookbook",
+      "id": 4
+    },
+    {
+      "title": "Thursday Murder Club",
+      "author": "Richard Osman",
+      "genre": "Mystery",
+      "id": 5
+    }
+  ],
+  "shows": [
+    {
+      "title": "Hacks",
+      "type": "Series",
+      "source": "HBOMax",
+      "id": 1
+    },
+    {
+      "title": "The Great",
+      "type": "Series",
+      "source": "Hulu",
+      "id": 2
+    },
+    {
+      "title": "Russian Doll",
+      "type": "Series",
+      "source": "Netflix",
+      "id": 3
+    },
+    {
+      "title": "Seaside Hotel",
+      "source": "PBS",
+      "type": "Series",
+      "id": 4
+    }
+  ]
 }
