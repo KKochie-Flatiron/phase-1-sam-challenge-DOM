@@ -71,8 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById('show-list').append(li);
     }
 
-  
-
     //Event Handlers
     function handleBookSubmit(e) {
         e.preventDefault();

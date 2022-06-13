@@ -4,22 +4,40 @@ body {
     margin: 50px;
 }
 
-#shows {
-    color:brown;
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.cooking {
-    color:tomato;
+main button {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+#shows {
+    color:brown;
 }
 
 .hidden {
     display: none;
 }
 
-button
-{
+button {
     margin: 10px 0;
 }
+
 
 input[type=submit] {
     margin: 10px 10px 10px 0;
