@@ -1,0 +1,37 @@
+{
+    "complete": [
+        {
+            "title": "The Book on Pie",
+            "author": "Erin Jeanne McDowell",
+            "genre": "Cookbook",
+            "id": 1
+        },
+        {   "title": "Cloud Cuckoo Land",
+            "author": "Anthony Doerr",
+            "genre": "Historical Fiction",
+            "id": 2
+        },
+        {   "title": "Crying in H-Mart",
+            "author": "Michelle Zauner",
+            "genre": "Memoir",
+            "id": 3
+        }
+    ],
+    "next": [
+        {
+            "title": "Walk in the Woods",
+            "author": "Bill Bryson",
+            "id": 1
+        },
+        {
+            "title": "Just Kids",
+            "author": "Patti Smith",
+            "id": 2
+        },
+        {   "title": "A Year in Provence",
+            "author": "Peter Mayle",
+            "id": 3
+        }
+    ]
+
+}
